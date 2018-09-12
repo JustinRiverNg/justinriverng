@@ -35,13 +35,13 @@ body {font-family: PT Sans;
 
 img.sathertower {height: 350px;
 				border-style:solid;
-				border-color:#b0e0e6;}
+				border-image: linear-gradient(to top right, #b0e0e6, #d3ffce) 30;}
 img.imageofjustin2 {height:350px;
 				border-style:solid;
-				border-color:#b0e0e6;}
+				border-image: linear-gradient(to top right, #b0e0e6, #d3ffce) 30;}
 img.imageofjustin {height:350px;
 				border-style:solid;
-				border-color:#b0e0e6;}
+				border-image: linear-gradient(to top right, #b0e0e6, #d3ffce) 30;}
 
 img.facebookicon {height: 60px;}
 img.instagramicon {height:60px;}
