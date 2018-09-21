@@ -9,7 +9,7 @@ html{
 #main-box{
 	font-family: PT Sans;
 	width: 400px;
-	height: 600px;
+	height: 650px;
 	background: rgba(0,0,0,0.4);
 	padding: 40px;
 	color: #f0f8ff;
@@ -21,4 +21,10 @@ html{
 .main-photo {
 	border-radius: 50%;
 	height: 200px;
+}
+
+.social-media-icon {
+	width: 40px;
+	color: white;
+	background-color: white;
 }
