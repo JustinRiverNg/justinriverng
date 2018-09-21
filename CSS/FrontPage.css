@@ -1,0 +1,24 @@
+html{
+	background: url(../Images/DesktopBackground1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#main-box{
+	font-family: PT Sans;
+	width: 400px;
+	height: 600px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: #f0f8ff;
+	margin: 0 auto;
+	margin-top: 140px;
+	text-align: center;
+}
+
+.main-photo {
+	border-radius: 50%;
+	height: 200px;
+}
