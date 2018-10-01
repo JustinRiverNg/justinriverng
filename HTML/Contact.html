@@ -20,7 +20,7 @@
 </div>
 
 <div id="contact-form">
-  <form action="action_page.php">
+  <form action="action_page.php" method="POST">
 
     <label for="fname">First Name</label>
     <br>
@@ -46,6 +46,11 @@
 
   </form>
 </div>
+
+<form method="post" action="contact.php">
+    <input type="text" name="firstname">
+    <input type="submit">
+</form>
 
 </body>
 </html>
