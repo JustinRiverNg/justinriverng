@@ -1,5 +1,5 @@
 html {
-	background: url(../Images/DesktopBackground1.jpg) no-repeat center center fixed; 
+	background: url(../Images/DesktopBackground3.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,21 +36,3 @@ html {
 
 #navigation-box a:hover {
 	color: #505050;}
-
-#main-box {
-	width: 400px;
-	background: rgba(0,0,0,0.4);
-	padding: 40px;
-	color: #f0f8ff;
-	margin: 0 auto;
-	margin-top: 50px;
-	text-align: center;}
-
-.main-photo {
-	border-radius: 50%;
-	height: 200px;}
-
-.social-media-icon {
-	width: 40px;
-	color: white;
-	background-color: white;}
