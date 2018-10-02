@@ -1,6 +1,6 @@
 <?php
 if($_POST["firstname"]) {
-    mail("justinriverng@gmail.com", "Contact Form Message", $_POST["firstname"], "From: an@email.address");
+    mail("justinriverng@gmail.com", "Contact Form Message", $_POST["firstname"], $_POST["lastname"], $_POST["subject"], $_POST["replyto"]"]"From: an@email.address");
 }
 ?>
 
