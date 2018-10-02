@@ -1,5 +1,5 @@
 <?php
-if($_POST["firstname"]) {
+if($_POST["submit"]) {
     mail("justinriverng@email.address", "Contact Form Message", $_POST["firstname"], "From: an@email.address");
 }
 ?>
