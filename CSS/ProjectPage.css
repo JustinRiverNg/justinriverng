@@ -1,6 +1,10 @@
 html {
-	background-color: #2B2B2B;
-  	font-family: PT Sans;
+	background: url(../Images/DesktopBackground1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: PT Sans;
   	color: #C0C0C0;}
 
 #navigation-box ul {
@@ -53,7 +57,8 @@ html {
 	}
 
 #first-box img {
-	height:250px;}
+	height:250px;
+	border-radius: 10px;}
 
 p.github-button a:link, a:visited{
     background-color: #008080;
@@ -82,7 +87,8 @@ p.github-button a:hover{
 	}
 
 #second-box img {
-	height:250px;}
+	height:250px;
+	border-radius: 10px;}
 
 p.paper-button a:link, a:visited{
     background-color: #008080;
