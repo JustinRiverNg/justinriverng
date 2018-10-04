@@ -16,7 +16,8 @@ html {
 	height: 40px;
 	padding-top: 10px;
 	border-style: solid;
-	border-width: 2px;}
+	border-width: 2px;
+	border-radius: 10px;}
 
 #navigation-box li {
 	display: inline;

@@ -7,12 +7,12 @@ html {
   font-family: PT Sans;}
 
 #navigation-box{
-	background: rgba(0,0,0,0.4);}
+	background: rgba(0,0,0,0.4);
+	border-radius: 10px;}
 
 #navigation-box ul {
 	list-style-type: none;
 	text-align: center;
-	background-color: rgba(0,0,0,0.4);
 	margin: 0px;
 	padding: 0px;
 	font-size: 20px;
@@ -72,7 +72,7 @@ input[type=submit]:hover {
 
 /* Contact form box styling */
 #contact-form {
-    border-radius: 5px;
-    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.4);
     padding: 10px;
 }
