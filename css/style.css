@@ -51,16 +51,6 @@ ul {
   text-align: center;
 }
 
-/* Social Media Icons. */
-#title a {
-  color: #383838;
-}
-
-.fa-linkedin {
-  margin-right: 2px;
-}
-
-
 .navbar-brand {
   margin-left: 1em;
 }
@@ -111,6 +101,15 @@ ul {
   margin-bottom: 45px;
 }
 
+.fa-linkedin {
+  margin-right: 2px;
+  color: #383838;
+}
+
+.fa-github-square {
+  color: #383838;
+}
+
 .copyright {
   color: #F8F8F8;
   text-align: center;
@@ -124,6 +123,7 @@ ul {
 
 .copyright p {
   color: #F8F8F8;
+  font-size: 12px;
 }
 
 .contact-btn {
