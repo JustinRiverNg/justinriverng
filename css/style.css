@@ -7,6 +7,7 @@ h2 {
   color: #151515;
   margin-left: 30px;
   margin-bottom: 1em;
+  font-weight: bold;
 }
 
 h3 {
@@ -49,6 +50,7 @@ ul {
   color: #151515;
   margin: 2em 0 1em 0;
   margin-left: 30px;
+  font-weight: bold;
 }
 
 .profile-photo {
