@@ -30,27 +30,7 @@ ul {
   margin-left: 30px;
 }
 
-.welcome {
-  color: #151515;
-  text-align: center;
-  margin: 3em 0 1em 0;
-}
-
-.profile-photo {
-  width: 25%;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 80%;
-}
-
-#title {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-align: center;
-}
-
+/********************************** Navigation Section *********************************/
 .navbar-brand {
   margin-left: 1em;
 }
@@ -59,31 +39,53 @@ ul {
   margin-right: 1em;
 }
 
-.footer {
+/********************************** Introduction Section *********************************/
+#title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.welcome {
+  color: #151515;
+  text-align: center;
+  margin: 3em 0 1em 0;
+}
+
+.profile-photo {
+  width: 20%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+/********************************** About Me Section *********************************/
+#about {
   margin-left: auto;
   margin-right: auto;
 }
 
-#intro {
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/********************************** Experience Section *********************************/
 #experience {
   margin-left: auto;
   margin-right: auto;
 }
 
+/********************************** Education Section *********************************/
 #education {
   margin-left: auto;
   margin-right: auto;
 }
 
+/********************************** Projects Section *********************************/
 #projects {
   margin-left: auto;
   margin-right: auto;
 }
 
+/********************************** Contact Section *********************************/
 .contact {
   text-align: center;
   margin-top: 50px;
@@ -99,31 +101,6 @@ ul {
 
 .contact p {
   margin-bottom: 45px;
-}
-
-.fa-linkedin {
-  margin-right: 2px;
-  color: #383838;
-}
-
-.fa-github-square {
-  color: #383838;
-}
-
-.copyright {
-  color: #F8F8F8;
-  text-align: center;
-  background-color: #333333;
-  padding: 16px 0 2px 0;
-}
-
-.copyright {
-  margin-top: 50px;
-}
-
-.copyright p {
-  color: #F8F8F8;
-  font-size: 12px;
 }
 
 .contact-btn {
@@ -153,4 +130,37 @@ ul {
   background-image: linear-gradient(to bottom, #888888, #888888);
   text-decoration: none;
   color: #F8F8F8;
+}
+
+.fa-linkedin {
+  margin-right: 2px;
+  color: #383838;
+}
+
+.fa-github-square {
+  color: #383838;
+}
+
+.fa-linkedin:hover {
+  color: #888888;
+}
+
+.fa-github-square:hover {
+  color: #888888;
+}
+
+.copyright {
+  color: #F8F8F8;
+  text-align: center;
+  background-color: #333333;
+  padding: 16px 0 2px 0;
+}
+
+.copyright {
+  margin-top: 50px;
+}
+
+.copyright p {
+  color: #F8F8F8;
+  font-size: 12px;
 }
