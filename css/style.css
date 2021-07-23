@@ -3,12 +3,7 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
-  color: #151515;
-  margin-left: 30px;
-  margin-bottom: 1em;
-  font-weight: bold;
-}
+
 
 h2 {
   color: #151515;
@@ -18,7 +13,7 @@ h2 {
 }
 
 h3 {
-  color: #151515;
+  color: #002b54;
   margin-left: 30px;
   font-weight: bold;
 }
@@ -28,8 +23,9 @@ h4 {
   margin-left: 30px;
 }
 
+/** Section Headers */
 h5 {
-  color: #888888;
+  color: #333333;
   margin-left: 30px;
 }
 
@@ -53,6 +49,10 @@ ul {
   margin-right: 1em;
 }
 
+.navbar-brand {
+  list-style: none;
+}
+
 /********************************** Introduction Section *********************************/
 #title {
   margin-left: auto;
@@ -63,8 +63,10 @@ ul {
   color: #002b54;
 }
 
+
+
 .intro-occupation {
-  color: #3B3B3B;
+  color: #7393B3;
 }
 
 .profile-photo {
@@ -101,12 +103,24 @@ ul {
   margin-right: auto;
 }
 
+#projects a {
+  color: #002b54;
+}
+
+#projects a:hover {
+  color: #7393B3;
+}
+
 /********************************** Contact Section *********************************/
 .contact {
   text-align: center;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.getintouch {
+  margin-left: auto;
 }
 
 .contact h2 {
@@ -120,12 +134,12 @@ ul {
 }
 
 .contact-btn {
-  background: #333333;
-  background-image: -webkit-linear-gradient(top, #333333, #333333);
-  background-image: -moz-linear-gradient(top, #333333, #333333);
-  background-image: -ms-linear-gradient(top, #333333, #333333);
-  background-image: -o-linear-gradient(top, #333333, #333333);
-  background-image: linear-gradient(to bottom, #333333, #333333);
+  background: #002b54;
+  background-image: -webkit-linear-gradient(top, #002b54, #002b54);
+  background-image: -moz-linear-gradient(top, #002b54, #002b54);
+  background-image: -ms-linear-gradient(top, #002b54, #002b54);
+  background-image: -o-linear-gradient(top, #002b54, #002b54);
+  background-image: linear-gradient(to bottom, #002b54, #002b54);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 8px;
@@ -135,6 +149,15 @@ ul {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin-top: 10px;
+}
+
+.btn-outline {
+  background: #002b54;
+  color: #F8F8F8;
+}
+
+.btn-outline:hover {
+  color: #7393B3;
 }
 
 .contact-btn:hover {
@@ -150,25 +173,25 @@ ul {
 
 .fa-linkedin {
   margin-right: 2px;
-  color: #383838;
+  color: #002b54;
 }
 
 .fa-github-square {
-  color: #383838;
+  color: #002b54;
 }
 
 .fa-linkedin:hover {
-  color: #888888;
+  color: #7393B3;
 }
 
 .fa-github-square:hover {
-  color: #888888;
+  color: #7393B3;
 }
 
 .copyright {
   color: #F8F8F8;
   text-align: center;
-  background-color: #333333;
+  background-color: #002b54;
   padding: 16px 0 2px 0;
 }
 
