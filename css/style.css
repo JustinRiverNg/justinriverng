@@ -3,8 +3,6 @@ body {
   font-family: sans-serif;
 }
 
-
-
 h2 {
   color: #151515;
   margin-left: 30px;
@@ -53,29 +51,27 @@ ul {
   list-style: none;
 }
 
-/********************************** Introduction Section *********************************/
+/********************************** Greeting Section *********************************/
 #title {
   margin-left: auto;
   margin-right: auto;
 }
 
-.intro-name {
+.greeting-name {
   color: #002b54;
 }
 
-
-
-.intro-occupation {
+.greeting-occupation {
   color: #7393B3;
 }
 
-.profile-photo {
-  width: 25%;
-  margin: 1em 0 0 0;
-  margin-left: 5%;
+/********************************** Introduction Section *********************************/
+#intro {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/********************************** About Me Section *********************************/
+/********************************** Experience Section *********************************/
 #about {
   margin-left: auto;
   margin-right: auto;
@@ -157,7 +153,8 @@ ul {
 }
 
 .btn-outline:hover {
-  color: #7393B3;
+  background: #7393B3;
+  color: #F8F8F8;
 }
 
 .contact-btn:hover {
