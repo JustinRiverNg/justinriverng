@@ -27,6 +27,11 @@ h5 {
   margin-left: 30px;
 }
 
+h6 {
+  color: #333333;
+  margin-left: 30px;
+}
+
 p {
   color: #151515;
   margin-left: 30px;
@@ -97,6 +102,11 @@ ul {
   padding-top: 5rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.employer {
+  color: #002b54;
+  font-style: italic;
 }
 
 /********************************** Projects Section *********************************/
