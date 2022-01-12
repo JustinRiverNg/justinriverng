@@ -1,39 +1,48 @@
+:root {
+  --cloud-white: #F8F8F8;
+  --neon-green: #64ffda;
+  --black: #212529;
+  --navy-blue: #284b63;
+  --grey: #343a40;
+  --light-grey: #6c757d;
+}
+
 body {
-  background-color: #F8F8F8;
+  background-color: var(--cloud-white);
   font-family: 'Courier New';
 }
 
 h2 {
-  color: #151515;
+  color: var(--grey);
   margin-left: 30px;
   margin-bottom: 1em;
   font-weight: bold;
 }
 
 h3 {
-  color: #002b54;
+  color: var(--grey);
   margin-left: 30px;
-  font-weight: bold;
+  
 }
 
 h4 {
-  color: #151515;
+  color: var(--navy-blue);
   margin-left: 30px;
 }
 
 /** Section Headers */
 h5 {
-  color: #333333;
+  color: var(--grey);
   margin-left: 30px;
 }
 
 h6 {
-  color: #333333;
+  color: var(--grey);
   margin-left: 30px;
 }
 
 p {
-  color: #151515;
+  color: var(--black);
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -56,22 +65,27 @@ ul {
   list-style: none;
 }
 
+.nav-link {
+  color: var(--cloud-white);
+}
+
 /********************************** Greeting Section *********************************/
 #greeting {
-  padding-top: 15rem;
+  padding-top: 7rem;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
-.greeting-name {
-  color: #002b54;
+#greeting h3 {
+  color: var(--grey);
 }
 
-.greeting-occupation {
-  color: #7393B3;
+.profile-photo {
+  width: 40%;
+  float: left;
+  margin-right: 5%;
 }
-
-
 /********************************** Introduction Section *********************************/
 #intro {
   position: absolute;
@@ -79,12 +93,13 @@ ul {
   left: 50%;
 }
 
-/********************************** About Section *********************************/
-#about {
-  padding-top: 5rem;
+/********************************** Home Section *********************************/
+#home {
+  padding-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 /********************************** Experience Section *********************************/
@@ -94,8 +109,12 @@ ul {
   margin-right: auto;
 }
 
-.timeline-dates {
-  font-style: oblique;
+#experience h3 {
+  margin-top: 5%;
+}
+
+#experience p {
+  margin-top: 10%;
 }
 
 /********************************** Education Section *********************************/
@@ -103,6 +122,14 @@ ul {
   padding-top: 5rem;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+.education-title h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
 }
 
 .employer {
@@ -110,8 +137,31 @@ ul {
   font-style: italic;
 }
 
+#education h5 {
+  margin-left: auto;
+}
+
+#education h6 {
+  margin-left: auto;
+}
+
+.education-item {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.education-image {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
 /********************************** Projects Section *********************************/
 
+#projects {
+  margin-bottom: 3%;
+}
 
 .projects-header {
   margin-left: 0px;
@@ -134,41 +184,32 @@ ul {
 }
 
 .card-header {
-  color: #002b54;
+  color: var(--grey);
   font-weight: bold;
   text-align: center;
   margin: 0;
 }
 
 .card-body a {
-  color: #F8F8F8;
+  color: var(--grey);
   margin-bottom: 5px;
 }
 
 /********************************** Contact Section *********************************/
 #contact {
-  padding-top: 5rem;
   text-align: center;
-  margin-bottom: 10%;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  margin: 0;
+  left: 25%;
+  top: 25%;
+  justify-content: center;
 }
 
 .getintouch {
   margin-left: auto;
 }
 
-.contact h2 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
-}
-
-.contact p {
-  margin-bottom: 45px;
-}
-
-.contact-btn {
+/* .contact-btn {
   background: #002b54;
   background-image: -webkit-linear-gradient(top, #002b54, #002b54);
   background-image: -moz-linear-gradient(top, #002b54, #002b54);
@@ -179,21 +220,22 @@ ul {
   -moz-border-radius: 28;
   border-radius: 8px;
   font-family: Arial;
-  color: #F8F8F8;
+  color: var(--cloud-white);
   font-size: 15px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin-top: 10px;
-}
+} */
 
 .btn-outline {
-  background: #002b54;
-  color: #F8F8F8;
+  background: var(--cloud-white);
+  color: var(--black);
+  border: 1px solid var(--black);
 }
 
 .btn-outline:hover {
-  background: #7393B3;
-  color: #F8F8F8;
+  background: var(--black);
+  color: var(--cloud-white);
 }
 
 .contact-btn:hover {
@@ -208,20 +250,24 @@ ul {
 }
 
 .icon {
-  color: #002b54;
+  color: var(--black);
 }
 
 .icon:hover {
-  color: #7393B3;
+  color: var(--light-grey);
 }
+
+/********************************** Copyright Section *********************************/
 
 #copyright {
   color: #F8F8F8;
   text-align: center;
-  background-color: #002b54;
-  padding: 16px 0 2px 0;
-  margin-top: 6rem;
+  background-color: var(--black);
+  padding: 8px 0 0 0;
   font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #copyright p {
