@@ -348,9 +348,9 @@ ul {
   font-size: 12px;
   bottom: 0;
   width: 100%;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1;
+  border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1; */
 }
 
 #copyright p {
