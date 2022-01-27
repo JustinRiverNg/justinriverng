@@ -1,15 +1,20 @@
 :root {
   --cloud-white: #F8F8F8;
-  --neon-green: #64ffda;
-  --black: #212529;
+  --teal: #64ffda;
+  --light-black: #212529;
   --navy-blue: #284b63;
   --grey: #343a40;
   --light-grey: #6c757d;
+  --white: #ffffff;
+  --light-purple: #3B4371;
+  --neon-green: #ADFF9E;
+  --salmon: #ff9999;
+  --sea-blue: #2b5876;
 }
 
 body {
-  background-color: var(--cloud-white);
-  font-family: 'Courier New';
+  background-color: var(--white);
+  font-family: Sans-serif;
 }
 
 h2 {
@@ -42,7 +47,7 @@ h6 {
 }
 
 p {
-  color: var(--black);
+  color: var(--light-black);
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -57,16 +62,25 @@ ul {
   margin-left: 0em;
 }
 
+.fixed-top {
+  position: relative;
+}
+
 .navbar-toggler {
   margin-right: 1em;
 }
 
 .navbar-brand {
   list-style: none;
+  color: var(--cloud-white);
 }
 
 .nav-link {
-  color: var(--cloud-white);
+  color: var(--light-black);
+}
+
+.nav-link:hover {
+  color: var(--sea-blue);
 }
 
 .nav-item {
@@ -74,6 +88,20 @@ ul {
 }
 .navbar-brand {
   margin-left: 20px;
+  color: var(--light-black);
+}
+
+.navbar-brand:hover {
+  color: var(--sea-blue);
+}
+
+.navbar {
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  border-style: solid;
+  border-width: 2px;
+  color: var(--light-black);
+  border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1;
 }
 
 /********************************** Greeting Section *********************************/
@@ -92,6 +120,10 @@ ul {
   width: 40%;
   float: left;
   margin-right: 5%;
+  margin-bottom: 5%;
+  border-radius: 10em;
+  border: 1.5px solid transparent;
+  background: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) border-box;
 }
 /********************************** Introduction Section *********************************/
 #intro {
@@ -106,7 +138,13 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
+}
+
+.technology-icon {
+  width: 50px;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 
 /********************************** Experience Section *********************************/
@@ -150,8 +188,9 @@ ul {
 
 .work-logos {
   width: 200px;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /********************************** Education Section *********************************/
@@ -160,6 +199,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 10%;
 }
 
 .education-title h3 {
@@ -239,7 +279,7 @@ ul {
 /********************************** Contact Section *********************************/
 #contact {
   text-align: center;
-  margin: 15% auto;
+  margin: 10% auto 20% auto;
 }
 
 .getintouch {
@@ -267,12 +307,12 @@ ul {
 
 .btn-outline {
   background: var(--cloud-white);
-  color: var(--black);
-  border: 1px solid var(--black);
+  color: var(--light-black);
+  border: 1px solid var(--light-black);
 }
 
 .btn-outline:hover {
-  background: var(--black);
+  background: var(--light-black);
   color: var(--cloud-white);
 }
 
@@ -287,8 +327,12 @@ ul {
   color: #F8F8F8;
 }
 
-.icon {
-  color: var(--black);
+.contact-icon {
+  width: 40px;
+}
+
+#github-icon {
+  border-radius: 5px;
 }
 
 .icon:hover {
@@ -298,21 +342,43 @@ ul {
 /********************************** Copyright Section *********************************/
 
 #copyright {
-  color: #F8F8F8;
   text-align: center;
-  background-color: var(--black);
+  background-color: white;
   padding: 8px 0 0 0;
   font-size: 12px;
-  position: fixed;
   bottom: 0;
   width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1;
 }
 
 #copyright p {
-  color: #F8F8F8;
+  color: var(--light-black);
   font-size: 12px;
 }
 
-#teal-color-square {
-  width: 10px;
+#copyright a {
+  color: var(--light-black);
+  text-decoration: none;
+}
+
+/********************************** Responsiveness Section *********************************/
+
+@media screen and (max-width: 920px) {
+  #contact {
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    margin-bottom: 40%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #contact {
+    margin-bottom: 70%;
+  }
 }
