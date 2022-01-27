@@ -62,10 +62,6 @@ ul {
   margin-left: 0em;
 }
 
-.fixed-top {
-  position: relative;
-}
-
 .navbar-toggler {
   margin-right: 1em;
 }
@@ -106,10 +102,6 @@ ul {
   border-width: 2px;
   color: var(--light-black);
   border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1;
-}
-
-.navbar-toggler-icon {
-  color: black !important;
 }
 
 /********************************** Greeting Section *********************************/
