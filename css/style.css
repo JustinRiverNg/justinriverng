@@ -205,11 +205,15 @@ ul {
 
 /********************************** Education Section *********************************/
 #education {
-  padding-top: 3rem;
+  margin-top: 3rem;
+  padding: 1.5rem 2rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-bottom: 8%;
+  margin-bottom: 3%;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1;
 }
 
 .education-title h3 {
@@ -217,11 +221,6 @@ ul {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3%;
-}
-
-.employer {
-  color: #002b54;
-  font-style: italic;
 }
 
 #education h5 {
@@ -233,19 +232,16 @@ ul {
 }
 
 .education-item {
-  margin-top: 5%;
-  margin-bottom: 10%;
+  margin-top: 7%;
+  margin-bottom: 3%;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 .education-image {
-  width: 100px;
-  margin-bottom: 15px;
-}
-
-.au-logo {
-  margin-bottom: 24px;
+  width: 125px;
+  float: left;
 }
 
 /********************************** Projects Section *********************************/
