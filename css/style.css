@@ -205,12 +205,17 @@ ul {
 
 /********************************** Education Section *********************************/
 #education {
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding: 1.5rem 2rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin-bottom: 3%;
+}
+
+#education-summary {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1;
@@ -227,13 +232,17 @@ ul {
   margin-left: auto;
 }
 
-#education h6 {
+#education p {
   margin-left: auto;
+  overflow: hidden;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .education-item {
-  margin-top: 7%;
-  margin-bottom: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -241,7 +250,6 @@ ul {
 
 .education-image {
   width: 125px;
-  float: left;
 }
 
 /********************************** Projects Section *********************************/
