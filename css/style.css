@@ -120,12 +120,13 @@ ul {
   width: 30%;
   float: left;
   margin-right: 5%;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   border-radius: 10em;
   border: 2px solid transparent;
   border-color: var(--navy-blue);
 }
 /********************************** Introduction Section *********************************/
+
 #intro {
   position: absolute;
   top: 50%;
@@ -148,6 +149,18 @@ ul {
   width: 50px;
   margin-right: 20px;
   margin-top: 5px;
+}
+
+@media screen and (max-width: 375px) {
+  #greeting h3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 925px) {
+  .profile-photo {
+    width: 40%;
+  }
 }
 
 /********************************** Experience Section *********************************/
@@ -197,9 +210,14 @@ ul {
 
 .work-logos {
   width: 100px;
-  margin-left: 50px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 376px) {
+  .work-logos {
+    margin-right: 50px;
+  }
 }
 
 /********************************** Education Section *********************************/
@@ -324,6 +342,24 @@ ul {
   color: var(--light-grey);
 }
 
+@media screen and (max-width: 920px) {
+  #contact {
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    margin-bottom: 40%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #contact {
+    margin-bottom: 70%;
+  }
+}
+
 /********************************** Copyright Section *********************************/
 
 #copyright {
@@ -346,30 +382,4 @@ ul {
 #copyright a {
   color: var(--light-black);
   text-decoration: none;
-}
-
-/********************************** Responsiveness Section *********************************/
-
-@media screen and (max-width: 920px) {
-  #contact {
-    margin-bottom: 30%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #contact {
-    margin-bottom: 40%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  #contact {
-    margin-bottom: 70%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 925px) {
-  .profile-photo {
-    width: 40%;
-  }
 }
