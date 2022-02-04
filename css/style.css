@@ -56,6 +56,8 @@ ul {
   margin-left: 30px;
 }
 
+
+
 /********************************** Navigation Section *********************************/
 .navbar-brand {
   margin-left: 0em;
@@ -306,10 +308,30 @@ ul {
   margin: 0;
 }
 
-.card-body a {
-  color: var(--grey);
-  margin-bottom: 5px;
+.project-buttons {
+  text-align: center;
 }
+
+.card-body a {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, var(--salmon), #26a0da) 1;
+  color: var(--light-black);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.card-body a:hover {
+  background-color: var(--light-black);
+  color: var(--cloud-white);
+  text-decoration: none;
+}
+
+/* @media screen and (max-width: 750px) {
+  .card {
+    width: 80%;
+  }
+} */
 
 /********************************** Contact Section *********************************/
 #contact {
