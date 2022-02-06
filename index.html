@@ -2,6 +2,15 @@
 <html lang="en">
 
   <head>
+
+    <!-- Bootstrap JS. Needed for Navbar Toggler -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +21,7 @@
     <link href="css/style.css" rel="stylesheet" />
     <link rel="icon" href="images/favicon-black.ico" />
 
-    <!-- Bootstrap JS. Needed for Navbar Toggler -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
-
-    <title>Experience</title>
+    <title>Justin Ng</title>
 
 </head>
 
@@ -66,9 +67,8 @@
   <section id="greeting" class="col-md-6 col-sm-9 col-11">
     <p>
       <img src="images/justin-hawaii-circular.png" class="profile-photo" id="profile-photo">
-      <h3> Hello, my name is Justin Ng.
-        <br>
-        I build software and web applications.
+      <h3> <div id="introduction-text"></div>
+        <!-- intro text displayed by js. -->
       </h3>
     </p>
   </section>
