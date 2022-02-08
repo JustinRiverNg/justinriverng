@@ -153,6 +153,11 @@ ul {
   margin-top: 5px;
 }
 
+#website-github-statement {
+  margin-left: 30px;
+  font-size: 13px;
+}
+
 @media screen and (max-width: 375px) {
   #greeting h3 {
     font-size: 16px;
