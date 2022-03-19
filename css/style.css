@@ -151,6 +151,10 @@ ul {
   margin-top: 5px;
 }
 
+.technology-icon:hover {
+  transform: translateY(-10px);
+}
+
 #website-github-statement {
   margin-left: 30px;
   font-size: 13px;
@@ -218,6 +222,10 @@ ul {
   width: 100px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.work-logos:hover {
+  transform: translateY(-10px);
 }
 
 @media screen and (min-width: 376px) {
@@ -425,6 +433,10 @@ ul {
   width: 70px;
 }
 
+#email-icon:hover {
+  transform: translateY(-10px);
+}
+
 .contact-icon {
   width: 40px;
 }
@@ -433,8 +445,9 @@ ul {
   border-radius: 5px;
 }
 
-.icon:hover {
+.contact-icon:hover {
   color: var(--light-grey);
+  transform: translateY(-10px);
 }
 
 @media screen and (max-width: 920px) {
