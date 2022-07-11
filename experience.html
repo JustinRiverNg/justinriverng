@@ -21,114 +21,93 @@
     <link href="css/style.css" rel="stylesheet" />
     <link rel="icon" href="images/favicon-black.ico" />
 
-    <title>Experience</title>
+    <title>Education</title>
 
 </head>
 
-<body>
+<body id="experience-body">
+
     <!-- ###################################### Navigation Bar ###################################### -->
-    <nav id ="navbar" class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <nav id ="navbar" class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+      <a class="navbar-brand" href="index.html">Justin Ng </a>
+    </li>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+
+      <ul class="navbar-nav">
+        <!-- data-toggle and data-target will collapse the navbar when a link is clicked. -->
         <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="navbar-brand" href="index.html">Justin Ng </a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" href="experience.html">Experience</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" href="education.html">Education</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  </nav>
 
-        <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav">
-                <!-- data-toggle and data-target will collapse the navbar when a link is clicked. -->
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="experience.html">Experience</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="education.html">Education</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+  <div class="timeline">
+    <ul>
+      <li>
+        <span>July 2022 - Present</span>
+        <div class="content">
+          <h3>Software Engineer @ Intel Corporation</h3>
+          <p>
+            At Intel Corporation, I work on the design, development, and maintenance of applications used in driving key decisions across the company’s manufacturing and supply chain domains.          </p>
         </div>
-    </nav>
-
-    <!-- ###################################### Experience ###################################### -->
-
-    <section id="experience" class="col-lg-8 col-md-8 col-sm-9 col-11 row">
-        <!-- <div class="col-md-8 col-sm-9 col-10 experience-title"></div> -->
-        <h3 id="experience-title-text"></h3>
-        <!-- </div> -->
-        <!-- <div class="col-md-8 col-sm-9 col-10 experience-summary">
-            <div class="col-md-8 col-sm-9 col-10 experience-images">
-                <img src="images/dgs-logo.png" class="work-logos">
-                <img src="images/sos-logo.svg" class="work-logos">
-                <img src="images/senda-logo.png" class="work-logos">
-            </div>
-            <p>
-                Currently, I'm a software engineer with the California Secretary of State (July 2021 - Present). 
-                In this role, I work on a variety of web applications utilizing C#, T-SQL, .NET, HTML, CSS, JavaScript, jQuery, and Microsoft Azure.
-                <br>
-                <br>
-                Previously, I've worked as a Program Analyst the California Department of General Services (January 2019 - July 2021),
-                and an Operations and Business Development Intern at Senda Athletics.(May 2018 - August 2018).
-            </p>
-        </div> -->
-        <div id="intel-card" class="card">
-            <img class="card-img-top" src="images/intel-logo.png" alt="Intel Corporation logo" style="width: 8rem;">
-            <div class="card-body">
-              <p class="card-text">
-                Software Engineer @ Intel Corporation
-                    <br>
-                    <br>
-                    (July 2022 - Present)
-              </p>
-            </div>
+      </li>
+      <li>
+        <span>July 2021 - July 2022</span>
+        <div class="content">
+          <h3>Software Developer @ California Secretary of State</h3>
+          <p>
+            At the California Secretary of State, I was responsible for all stages of the software development lifecycle for various ASP.NET web 
+            applications that were integral to California’s election processes. Such applications included business use cases for data reporting, voter outreach, 
+            and file sharing. On a daily basis, I utilized C#, T-SQL, HTML, CSS, JavaScript, jQuery, Microsoft Azure, and ASP.NET.
+          </p>
         </div>
-        <div id="sos-card" class="card">
-            <img class="card-img-top" src="images/sos-logo.svg" alt="CA Secretary of State logo" style="width: 8rem;">
-            <div class="card-body">
-              <p class="card-text">
-                Software Engineer @ California Secretary of State
-                    <br>
-                    <br>
-                    (July 2021 - July 2022)
-              </p>
-            </div>
+      </li>
+      <li>
+        <span>January 2019 - July 2021</span>
+        <div class="content">
+          <h3>Program Analyst @ California Department of General Services</h3>
+          <p>
+            At the California Department of General Services, I served as a technical liaison between the information technology division 
+            and the program services division to develop a new public-facing web application. I led the testing and tracking of software defects in Azure DevOps 
+            for this web application.
+          </p>
         </div>
-        <div id="dgs-card" class="card">
-            <img class="card-img-top" src="images/dgs-logo.png" alt="CA Department of General Services logo" style="width: 12rem;">
-            <div class="card-body">
-              <p class="card-text">
-                Program Analyst @ California Department of General Services
-                <br>
-                <br>
-                (January 2019 - July 2021)
-              </p>
-            </div>
+      </li>
+      <li>
+        <span>May 2018 - August 2018</span>
+        <div class="content">
+          <h3>Operations and Business Development Intern @ Senda Athletics</h3>
+          <p>
+            At Senda Athletics, I managed the startup's daily operations, addressed business inquiries, and redesigned the company's e-commerce website.
+          </p>
         </div>
-        <div id="senda-card" class="card">
-            <img class="card-img-top" src="images/senda-logo.png" alt="Senda Athletics logo" style="width: 7rem;">
-            <div class="card-body">
-              <p class="card-text">
-                Operations and Business Development Intern @ Senda Athletics
-                <br>
-                <br>
-                (May 2018 - August 2018)
-              </p>
-            </div>
-        </div>
-    </section>
+      </li>
+    </ul>
+  </div>
 
-
-    <!-- ###################################### Copyright ###################################### -->
-    <section id="copyright">
+      <!-- ###################################### Copyright ###################################### -->
+      <section id="copyright">
         <p>© 2022 - Website Designed & Developed by Justin Ng</p>
     </section>
 
@@ -138,8 +117,7 @@
     </script>
 
     <!-- JavaScript -->
-    <script type="text/javascript" src="js/experience.js"></script>
+    <script type="text/javascript" src="js/education.js"></script>
 
 </body>
-
 </html>
