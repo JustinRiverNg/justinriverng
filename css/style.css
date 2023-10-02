@@ -441,6 +441,22 @@ ul {
   text-decoration: none;
 }
 
+#noakboard-card {
+  border-color: #EC9A29;
+  color: #EC9A29;
+}
+
+#noakboard-card a {
+  border-color: #EC9A29;
+  color: #EC9A29;
+}
+
+#noakboard-card a:hover {
+  background-color: #EC9A29;
+  color: var(--cloud-white);
+  text-decoration: none;
+}
+
 #speed-trivia-card {
   border-color: #455d7a;
   color: #455d7a;
