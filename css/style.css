@@ -26,7 +26,6 @@ h2 {
 
 h3 {
   color: var(--grey);
-  
 }
 
 h4 {
@@ -75,11 +74,11 @@ ul {
 }
 
 .nav-link {
-   color: #eeeeee !important;
+   /* color: #eeeeee !important; */
 }
 
 .nav-link:hover {
-  color: #a8e6cf !important;
+  color: #2b5876 !important;
 }
 
 .nav-item {
@@ -91,13 +90,12 @@ ul {
 }
 
 .navbar-brand:hover {
-  color: #a8e6cf !important;
+  color: #2b5876 !important;
 }
 
 .navbar {
   padding-top: 0.1em;
   padding-bottom: 0.1em;
-  border-style: solid;
 }
 
 /********************************** Greeting Section *********************************/
@@ -108,7 +106,7 @@ ul {
   overflow: hidden;
 }
 
-#greeting h3 {
+#greeting {
   color: var(--grey);
   padding-bottom: 5px;
 }
@@ -144,7 +142,7 @@ ul {
 }
 
 .technology-icon {
-  width: 50px;
+  width: 40px;
   margin-right: 20px;
   margin-top: 5px;
 }
@@ -192,7 +190,7 @@ ul {
   margin-top: 3%;
 }
 .timeline{
-  width: 80%;
+  width: 60%;
   color:#fff;
   padding:30px 20px;
   margin-left: auto;

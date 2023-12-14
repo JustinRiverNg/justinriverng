@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var introText = "Hello, my name is Justin Ng. I build software and web applications.";
+    var introText = "Hey, I'm Justin Ng. I build software and web applications.";
     var i = 0;
     var speed = 50;
 
