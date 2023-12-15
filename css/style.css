@@ -300,6 +300,15 @@ ul {
   /* border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1; */
 }
 
+.education-card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  /* border-width: 2px; */
+  border-style: solid;
+  /* border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1; */
+}
+
 .education-title h3 {
   text-align: center;
   margin-left: auto;
@@ -344,6 +353,7 @@ ul {
   border-width: 1px;
   border-style: solid;
   border-color: #0092ca;
+  box-shadow: 3px 1px 3px #0092ca;
 }
 
 #ucla-card img {
@@ -352,6 +362,13 @@ ul {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 1rem;
+}
+
+.ucla-graduation-date-badge {
+  background-color: #89CFF0;
+  padding: 1px 2px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 #ucb-card {
@@ -363,6 +380,7 @@ ul {
   border-width: 1px;
   border-style: solid;
   border-color: #facf5a;
+  box-shadow: 3px 1px 3px #facf5a;
 }
 
 #ucb-card img {
@@ -371,6 +389,13 @@ ul {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 1rem;
+}
+
+.ucb-graduation-date-badge {
+  background-color: #facf5a;
+  padding: 1px 2px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 #au-card {
@@ -382,6 +407,7 @@ ul {
   border-width: 1px;
   border-style: solid;
   border-color: #f78536;
+  box-shadow: 3px 1px 3px #f78536;
 }
 
 #au-card img {
@@ -390,6 +416,22 @@ ul {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 1rem;
+}
+
+.au-graduation-date-badge {
+  background-color: #f78536;
+  padding: 1px 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.graduation-date {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 90%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
 }
 
 /********************************** Projects Section *********************************/
@@ -411,7 +453,7 @@ ul {
   align-content: center;
 }
 
-.card {
+.project-card {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
@@ -419,6 +461,8 @@ ul {
   /* border-width: 2px; */
   border-style: solid;
   /* border-image: linear-gradient(to right, #E5E5BE, #26a0da, #4e4376) 1; */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card-header {
@@ -439,6 +483,7 @@ ul {
 .project-item {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .card-body a {
@@ -448,7 +493,7 @@ ul {
   border-color: blue;
   color: blue;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .card-body a:hover {
